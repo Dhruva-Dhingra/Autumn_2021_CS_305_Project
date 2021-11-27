@@ -1,0 +1,6 @@
+1. Create pin object of tracer/champsim_tracer.cpp using make_tracer.sh
+2. Make trace of the graph algorithm with the newly created pin object.
+2. If POPT policy has to be used, add #define POPT in programs/pr.cc, tracer/champsim_tracer.cpp, inc/champsim.h. 
+   Also call corresponding functions (use the template as programs/pr.cc) to send data to the backend.
+3. build using build_champsim.sh with the corresponding arguments and then run with run_champsim.sh using the corresponding arguments. 
+4. See results in the results_<num_instructions> folder.
