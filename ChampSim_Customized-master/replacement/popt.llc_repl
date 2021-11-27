@@ -1,0 +1,256 @@
+#include "cache.h"
+
+
+#define maxRRPV 3
+#define NUM_POLICY 2
+#define SDM_SIZE 32
+#define TOTAL_SDM_SETS NUM_CPUS *NUM_POLICY *SDM_SIZE
+#define BIP_MAX 32
+#define PSEL_WIDTH 10
+#define PSEL_MAX ((1 << PSEL_WIDTH) - 1)
+#define PSEL_THRS PSEL_MAX / 2
+
+uint32_t rrpv[LLC_SET][LLC_WAY], bip_counter = 0, PSEL[NUM_CPUS];
+unsigned rand_sets[TOTAL_SDM_SETS];
+
+// initialize replacement state
+void CACHE::llc_initialize_replacement() {
+  cout << NAME << " has POPT replacement policy (with DDRIP to break ties)" << endl;
+
+  // cout << "Initialize DRRIP state for LLC" << endl;
+
+  for (int i = 0; i < LLC_SET; i++) {
+    for (int j = 0; j < LLC_WAY; j++)
+      rrpv[i][j] = maxRRPV;
+  }
+
+  // randomly selected sampler sets
+  // srand(time(NULL));
+  unsigned long rand_seed = 1;
+  unsigned long max_rand = 1048576;
+  uint32_t my_set = LLC_SET;
+  int do_again = 0;
+  for (int i = 0; i < TOTAL_SDM_SETS; i++) {
+    do {
+      do_again = 0;
+      rand_seed = rand_seed * 1103515245 + 12345;
+      rand_sets[i] = ((unsigned)((rand_seed / 65536) % max_rand)) % my_set;
+      // printf("Assign rand_sets[%d]: %u  LLC: %u\n", i, rand_sets[i], my_set);
+      for (int j = 0; j < i; j++) {
+        if (rand_sets[i] == rand_sets[j]) {
+          do_again = 1;
+          break;
+        }
+      }
+    } while (do_again);
+    // printf("rand_sets[%d]: %d\n", i, rand_sets[i]);
+  }
+
+  for (int i = 0; i < NUM_CPUS; i++)
+    PSEL[i] = 0;
+}
+
+
+int is_it_leader(uint32_t cpu, uint32_t set) {
+  uint32_t start = cpu * NUM_POLICY * SDM_SIZE,
+           end = start + NUM_POLICY * SDM_SIZE;
+
+  for (uint32_t i = start; i < end; i++)
+    if (rand_sets[i] == set)
+      return ((i - start) / SDM_SIZE);
+
+  return -1;
+}
+
+// is this way_no part of a reserved way for Rereference MAtrix columns at LLC?
+//bool CACHE::is_reserved_way(int num_reserved_ways, uint32_t way_no){
+    
+ //   return reserved_ways[way_no];
+//}
+
+// find replacement victim
+// here add VC  i.e. next ref engine code
+uint32_t CACHE::llc_find_victim(uint32_t cpu, uint64_t instr_id, uint32_t set,
+                                const BLOCK *current_set, uint64_t ip,
+                                uint64_t full_addr, uint32_t type) {
+    
+
+    assert(NUM_WAY==LLC_WAY);
+    // TODO: Are these data types OKAY?
+
+    int next_ref_buffer[NUM_WAY];
+
+    int num_tie = 0;
+
+    uint32_t largest_next_ref = -1;
+    uint32_t next_ref;
+    uint32_t way_irreg_data;
+
+    for (uint32_t j=0; j<NUM_WAY; j++) {
+        if(reserved_ways[j]){ 
+          next_ref_buffer[j] = -1; // never evict from reserved ways
+          continue;
+        }
+
+        uint64_t data_address = block[set][j].full_addr; // full_addr is physical address and contains the bits for offset within line as well 
+
+        //cout<< "POPT llc_find_victim: data_address "<<data_address<<" irreg_base "<<irreg_base<<endl;
+
+        
+        bool is_streaming = false;
+        // is it streaming? Is this correct way to find if it is streaming?
+        if(data_address<irreg_base || data_address>=(irreg_base+irreg_bound))
+            is_streaming = true;
+        
+        if(is_streaming) {
+          return j; // return the first way in set which has streaming data
+        }
+        else{
+            // TODO: Confirm this clineID formula is correct?
+            int clineID = (data_address - irreg_base)/LOG2_BLOCK_SIZE; // divide by the number of bytes within a cache line block?
+
+
+        // is it streaming?
+        if(data_address<irreg_base || data_address>=(irreg_base+irreg_bound))
+           return j;
+        else{
+            // the address, irreg_base are address 
+            // ----------- uint32_t and uint64_t, typecasting?
+            uint32_t clineID = (data_address - irreg_base)/64; // divide by the number of bytes within a cache line block?
+            next_ref = findNextRef(clineID, currVertex); 
+            next_ref_buffer[j] = next_ref;
+            if(next_ref>largest_next_ref){ 
+                largest_next_ref = next_ref;
+                way_irreg_data = j;
+                num_tie = 1;
+            }
+            else if(next_ref==largest_next_ref){
+              num_tie+=1;
+            }
+            // if next_ref == largest_next_ref then break ties using DDRIP?
+        }
+    }
+    }
+    if(num_tie==1)
+      return way_irreg_data;  
+    
+    // DDRIP on the ways that have next_ref == largest_next_ref
+    // look for the maxRRPV line
+    
+    while (1) {
+      for (int i = 0; i < LLC_WAY; i++){
+        if (next_ref_buffer[i]!=largest_next_ref) continue;
+        if (rrpv[set][i] == maxRRPV)
+          return i;
+      }
+
+      for (int i = 0; i < LLC_WAY; i++){
+        if (next_ref_buffer[i]!=largest_next_ref) continue;
+        rrpv[set][i]++;
+      }
+    }
+
+    // WE SHOULD NOT REACH HERE
+    assert(0);
+    return 0;
+}
+// called on every cache hit and cache fill
+void CACHE::llc_update_replacement_state(uint32_t cpu, uint32_t set,
+                                         uint32_t way, uint64_t full_addr,
+                                         uint64_t ip, uint64_t victim_addr,
+                                         uint32_t type, uint8_t hit) {
+  // do not update replacement state for writebacks
+  if (type == WRITEBACK) {
+    rrpv[set][way] = maxRRPV - 1;
+    return;
+  }
+
+  // cache hit
+  if (hit) {
+    rrpv[set][way] = 0; // for cache hit, DRRIP always promotes a cache line to
+                        // the MRU position
+    return;
+  }
+
+  // cache miss
+  int leader = is_it_leader(cpu, set);
+
+  if (leader == -1) {            // follower sets
+    if (PSEL[cpu] > PSEL_THRS) { // follow BIP
+      rrpv[set][way] = maxRRPV;
+
+      bip_counter++;
+      if (bip_counter == BIP_MAX)
+        bip_counter = 0;
+      if (bip_counter == 0)
+        rrpv[set][way] = maxRRPV - 1;
+    } else // follow SRRIP
+      rrpv[set][way] = maxRRPV - 1;
+
+  } else if (leader == 0) { // leader 0: BIP
+    if (PSEL[cpu] > 0)
+      PSEL[cpu]--;
+    rrpv[set][way] = maxRRPV;
+
+    bip_counter++;
+    if (bip_counter == BIP_MAX)
+      bip_counter = 0;
+    if (bip_counter == 0)
+      rrpv[set][way] = maxRRPV - 1;
+
+  } else if (leader == 1) { // leader 1: SRRIP
+    if (PSEL[cpu] < PSEL_MAX)
+      PSEL[cpu]++;
+    rrpv[set][way] = maxRRPV - 1;
+
+  } else // WE SHOULD NOT REACH HERE
+    assert(0);
+}
+
+void CACHE::llc_replacement_final_stats() {}
+
+uint32_t msb(uint32_t entry){
+    uint32_t pow = (1<<7);
+    uint32_t ans = (entry/pow)%2;
+    return ans;
+}
+
+uint32_t value(uint32_t entry){
+    if (msb(entry) == 1){
+        return entry - (1<<7);
+    }
+    else{
+        return entry;
+    }
+}
+
+uint32_t CACHE::findNextRef(uint32_t clineID, uint32_t currDstID){
+    uint32_t epochID = currVertex/m_numEpochs[IRREGDATA];
+    uint32_t currEntry = *m_offsetMatrix[epochID*m_numEpochs[IRREGDATA]+clineID];
+
+    if(msb(currEntry) == 1){
+        return value(currEntry);
+    }
+    else{
+        uint32_t lastSubEpoch = value(currEntry);
+        uint32_t epochStart = epochID*m_numEpochs[IRREGDATA];
+        uint32_t epochOffSet = currDstID - epochStart;
+        uint32_t currSubEpoch = epochOffSet/m_numEpochs[IRREGDATA];
+
+        if (currSubEpoch <= lastSubEpoch){
+            return 0;
+        }
+        else{
+            if (epochID < (m_numEpochs[IRREGDATA] -1)){   
+                uint32_t nextEntry = *m_offsetMatrix[clineID + m_numEpochs[IRREGDATA]*(epochID+1)];
+                if (msb(nextEntry) == 1){
+                    return 1 + value(nextEntry);
+                 }
+                 return 1;
+            }
+            else{
+                return 1;
+            }
+        }
+    }
+}

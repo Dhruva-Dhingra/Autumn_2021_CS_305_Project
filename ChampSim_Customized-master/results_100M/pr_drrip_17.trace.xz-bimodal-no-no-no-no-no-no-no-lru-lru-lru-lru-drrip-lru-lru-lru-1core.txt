@@ -1,0 +1,352 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs traces_drrip/pr_drrip_17.trace.xz
+.xz
+CPU 0 Bimodal branch predictor
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+L2C has LRU replacement policy
+Initialize DRRIP state for LLC
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 1000003 cycles: 370689 heartbeat IPC: 2.69769 cumulative IPC: 2.69769 (Simulation time: 0 hr 0 min 2 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 2000003 cycles: 725465 heartbeat IPC: 2.81868 cumulative IPC: 2.75686 (Simulation time: 0 hr 0 min 5 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 3000003 cycles: 1080261 heartbeat IPC: 2.81852 cumulative IPC: 2.77711 (Simulation time: 0 hr 0 min 7 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 4000003 cycles: 1435014 heartbeat IPC: 2.81886 cumulative IPC: 2.78743 (Simulation time: 0 hr 0 min 10 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 5000003 cycles: 1789811 heartbeat IPC: 2.81851 cumulative IPC: 2.79359 (Simulation time: 0 hr 0 min 12 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 6000003 cycles: 2144561 heartbeat IPC: 2.81889 cumulative IPC: 2.79778 (Simulation time: 0 hr 0 min 15 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 7000003 cycles: 2499345 heartbeat IPC: 2.81862 cumulative IPC: 2.80073 (Simulation time: 0 hr 0 min 18 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 8000003 cycles: 2854125 heartbeat IPC: 2.81865 cumulative IPC: 2.80296 (Simulation time: 0 hr 0 min 20 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 9000003 cycles: 3208875 heartbeat IPC: 2.81889 cumulative IPC: 2.80472 (Simulation time: 0 hr 0 min 23 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 10000003 cycles: 3563590 heartbeat IPC: 2.81916 cumulative IPC: 2.80616 (Simulation time: 0 hr 0 min 25 sec) 
+
+Warmup complete CPU 0 instructions: 10000003 cycles: 3563590 (Simulation time: 0 hr 0 min 25 sec) 
+
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 11000000 cycles: 7004185 heartbeat IPC: 0.290647 cumulative IPC: 0.290647 (Simulation time: 0 hr 0 min 31 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 12000000 cycles: 10443562 heartbeat IPC: 0.29075 cumulative IPC: 0.290698 (Simulation time: 0 hr 0 min 35 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 13000000 cycles: 13882506 heartbeat IPC: 0.290787 cumulative IPC: 0.290728 (Simulation time: 0 hr 0 min 40 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 14000000 cycles: 17320160 heartbeat IPC: 0.290896 cumulative IPC: 0.29077 (Simulation time: 0 hr 0 min 46 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 15000000 cycles: 20756629 heartbeat IPC: 0.290996 cumulative IPC: 0.290815 (Simulation time: 0 hr 0 min 51 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 16000000 cycles: 24193536 heartbeat IPC: 0.290959 cumulative IPC: 0.290839 (Simulation time: 0 hr 0 min 56 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 17000000 cycles: 27629401 heartbeat IPC: 0.291048 cumulative IPC: 0.290869 (Simulation time: 0 hr 1 min 1 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 18000000 cycles: 31066086 heartbeat IPC: 0.290978 cumulative IPC: 0.290883 (Simulation time: 0 hr 1 min 7 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 19000000 cycles: 34500936 heartbeat IPC: 0.291134 cumulative IPC: 0.29091 (Simulation time: 0 hr 1 min 12 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 20000000 cycles: 37935036 heartbeat IPC: 0.291197 cumulative IPC: 0.290939 (Simulation time: 0 hr 1 min 19 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 21000000 cycles: 41369232 heartbeat IPC: 0.291189 cumulative IPC: 0.290962 (Simulation time: 0 hr 1 min 24 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 22000000 cycles: 44802684 heartbeat IPC: 0.291252 cumulative IPC: 0.290986 (Simulation time: 0 hr 1 min 29 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 23000000 cycles: 48235573 heartbeat IPC: 0.2913 cumulative IPC: 0.29101 (Simulation time: 0 hr 1 min 34 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 24000000 cycles: 51668627 heartbeat IPC: 0.291286 cumulative IPC: 0.29103 (Simulation time: 0 hr 1 min 40 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 25000000 cycles: 55100291 heartbeat IPC: 0.291404 cumulative IPC: 0.291055 (Simulation time: 0 hr 1 min 46 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 26000000 cycles: 58531210 heartbeat IPC: 0.291467 cumulative IPC: 0.29108 (Simulation time: 0 hr 1 min 51 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 27000000 cycles: 61962767 heartbeat IPC: 0.291413 cumulative IPC: 0.2911 (Simulation time: 0 hr 1 min 56 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 28000000 cycles: 65393352 heartbeat IPC: 0.291495 cumulative IPC: 0.291122 (Simulation time: 0 hr 2 min 0 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 29000000 cycles: 68824827 heartbeat IPC: 0.29142 cumulative IPC: 0.291138 (Simulation time: 0 hr 2 min 5 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 30000000 cycles: 72254737 heartbeat IPC: 0.291553 cumulative IPC: 0.291158 (Simulation time: 0 hr 2 min 10 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 31000000 cycles: 75684067 heartbeat IPC: 0.291602 cumulative IPC: 0.291179 (Simulation time: 0 hr 2 min 15 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 32000000 cycles: 79113663 heartbeat IPC: 0.29158 cumulative IPC: 0.291198 (Simulation time: 0 hr 2 min 20 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 33000000 cycles: 82542585 heartbeat IPC: 0.291637 cumulative IPC: 0.291217 (Simulation time: 0 hr 2 min 25 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 34000000 cycles: 85971114 heartbeat IPC: 0.29167 cumulative IPC: 0.291236 (Simulation time: 0 hr 2 min 30 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 35000000 cycles: 89399808 heartbeat IPC: 0.291656 cumulative IPC: 0.291252 (Simulation time: 0 hr 2 min 36 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 36000000 cycles: 92827622 heartbeat IPC: 0.291731 cumulative IPC: 0.291271 (Simulation time: 0 hr 2 min 41 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 37000000 cycles: 96254251 heartbeat IPC: 0.291832 cumulative IPC: 0.291291 (Simulation time: 0 hr 2 min 46 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 38000000 cycles: 99681488 heartbeat IPC: 0.29178 cumulative IPC: 0.291309 (Simulation time: 0 hr 2 min 51 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 39000000 cycles: 103107753 heartbeat IPC: 0.291863 cumulative IPC: 0.291328 (Simulation time: 0 hr 2 min 57 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 40000000 cycles: 106535248 heartbeat IPC: 0.291758 cumulative IPC: 0.291342 (Simulation time: 0 hr 3 min 2 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 41000000 cycles: 109961178 heartbeat IPC: 0.291892 cumulative IPC: 0.29136 (Simulation time: 0 hr 3 min 7 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 42000000 cycles: 113386528 heartbeat IPC: 0.291941 cumulative IPC: 0.291378 (Simulation time: 0 hr 3 min 13 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 43000000 cycles: 116812314 heartbeat IPC: 0.291904 cumulative IPC: 0.291394 (Simulation time: 0 hr 3 min 18 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 44000000 cycles: 120237596 heartbeat IPC: 0.291947 cumulative IPC: 0.29141 (Simulation time: 0 hr 3 min 23 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 45000000 cycles: 123662555 heartbeat IPC: 0.291974 cumulative IPC: 0.291426 (Simulation time: 0 hr 3 min 29 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 46000000 cycles: 127087849 heartbeat IPC: 0.291946 cumulative IPC: 0.291441 (Simulation time: 0 hr 3 min 34 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 47000000 cycles: 130512363 heartbeat IPC: 0.292012 cumulative IPC: 0.291456 (Simulation time: 0 hr 3 min 40 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 48000000 cycles: 133936032 heartbeat IPC: 0.292084 cumulative IPC: 0.291473 (Simulation time: 0 hr 3 min 46 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 49000000 cycles: 137360479 heartbeat IPC: 0.292018 cumulative IPC: 0.291487 (Simulation time: 0 hr 3 min 51 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 50000000 cycles: 140784124 heartbeat IPC: 0.292086 cumulative IPC: 0.291502 (Simulation time: 0 hr 3 min 56 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 51000000 cycles: 144209169 heartbeat IPC: 0.291967 cumulative IPC: 0.291513 (Simulation time: 0 hr 4 min 1 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 52000000 cycles: 147632819 heartbeat IPC: 0.292086 cumulative IPC: 0.291526 (Simulation time: 0 hr 4 min 7 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 53000000 cycles: 151056059 heartbeat IPC: 0.292121 cumulative IPC: 0.29154 (Simulation time: 0 hr 4 min 13 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 54000000 cycles: 154479905 heartbeat IPC: 0.292069 cumulative IPC: 0.291552 (Simulation time: 0 hr 4 min 18 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 55000000 cycles: 157903247 heartbeat IPC: 0.292112 cumulative IPC: 0.291565 (Simulation time: 0 hr 4 min 24 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 56000000 cycles: 161326436 heartbeat IPC: 0.292125 cumulative IPC: 0.291577 (Simulation time: 0 hr 4 min 29 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 57000000 cycles: 164750130 heartbeat IPC: 0.292082 cumulative IPC: 0.291588 (Simulation time: 0 hr 4 min 34 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 58000000 cycles: 168172944 heartbeat IPC: 0.292157 cumulative IPC: 0.291599 (Simulation time: 0 hr 4 min 39 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 59000000 cycles: 171594913 heartbeat IPC: 0.292229 cumulative IPC: 0.291612 (Simulation time: 0 hr 4 min 45 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 60000000 cycles: 175017830 heartbeat IPC: 0.292148 cumulative IPC: 0.291623 (Simulation time: 0 hr 4 min 50 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 61000000 cycles: 178439945 heartbeat IPC: 0.292217 cumulative IPC: 0.291635 (Simulation time: 0 hr 4 min 56 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 62000000 cycles: 181863290 heartbeat IPC: 0.292112 cumulative IPC: 0.291644 (Simulation time: 0 hr 5 min 1 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 63000000 cycles: 185285410 heartbeat IPC: 0.292217 cumulative IPC: 0.291655 (Simulation time: 0 hr 5 min 7 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 64000000 cycles: 188707120 heartbeat IPC: 0.292252 cumulative IPC: 0.291666 (Simulation time: 0 hr 5 min 12 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 65000000 cycles: 192129436 heartbeat IPC: 0.2922 cumulative IPC: 0.291675 (Simulation time: 0 hr 5 min 18 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 66000000 cycles: 195551418 heartbeat IPC: 0.292228 cumulative IPC: 0.291685 (Simulation time: 0 hr 5 min 24 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 67000000 cycles: 198972907 heartbeat IPC: 0.29227 cumulative IPC: 0.291695 (Simulation time: 0 hr 5 min 29 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 68000000 cycles: 202395071 heartbeat IPC: 0.292213 cumulative IPC: 0.291704 (Simulation time: 0 hr 5 min 34 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 69000000 cycles: 205816525 heartbeat IPC: 0.292273 cumulative IPC: 0.291714 (Simulation time: 0 hr 5 min 40 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 70000000 cycles: 209237304 heartbeat IPC: 0.292331 cumulative IPC: 0.291724 (Simulation time: 0 hr 5 min 45 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 71000000 cycles: 212658861 heartbeat IPC: 0.292265 cumulative IPC: 0.291733 (Simulation time: 0 hr 5 min 50 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 72000000 cycles: 216079786 heartbeat IPC: 0.292319 cumulative IPC: 0.291742 (Simulation time: 0 hr 5 min 55 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 73000000 cycles: 219502111 heartbeat IPC: 0.292199 cumulative IPC: 0.29175 (Simulation time: 0 hr 6 min 1 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 74000000 cycles: 222923381 heartbeat IPC: 0.292289 cumulative IPC: 0.291758 (Simulation time: 0 hr 6 min 6 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 75000000 cycles: 226344241 heartbeat IPC: 0.292324 cumulative IPC: 0.291767 (Simulation time: 0 hr 6 min 13 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 76000000 cycles: 229765537 heartbeat IPC: 0.292287 cumulative IPC: 0.291775 (Simulation time: 0 hr 6 min 18 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 77000000 cycles: 233186499 heartbeat IPC: 0.292315 cumulative IPC: 0.291783 (Simulation time: 0 hr 6 min 22 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 78000000 cycles: 236607308 heartbeat IPC: 0.292329 cumulative IPC: 0.291791 (Simulation time: 0 hr 6 min 27 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 79000000 cycles: 240028792 heartbeat IPC: 0.292271 cumulative IPC: 0.291798 (Simulation time: 0 hr 6 min 32 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 80000000 cycles: 243449566 heartbeat IPC: 0.292331 cumulative IPC: 0.291805 (Simulation time: 0 hr 6 min 37 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 81000000 cycles: 246869835 heartbeat IPC: 0.292375 cumulative IPC: 0.291813 (Simulation time: 0 hr 6 min 42 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 82000000 cycles: 250291052 heartbeat IPC: 0.292294 cumulative IPC: 0.29182 (Simulation time: 0 hr 6 min 47 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 83000000 cycles: 253711467 heartbeat IPC: 0.292362 cumulative IPC: 0.291827 (Simulation time: 0 hr 6 min 53 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 84000000 cycles: 257133112 heartbeat IPC: 0.292257 cumulative IPC: 0.291833 (Simulation time: 0 hr 6 min 58 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 85000000 cycles: 260553702 heartbeat IPC: 0.292347 cumulative IPC: 0.29184 (Simulation time: 0 hr 7 min 3 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 86000000 cycles: 263974052 heartbeat IPC: 0.292368 cumulative IPC: 0.291847 (Simulation time: 0 hr 7 min 8 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 87000000 cycles: 267395008 heartbeat IPC: 0.292316 cumulative IPC: 0.291853 (Simulation time: 0 hr 7 min 14 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 88000000 cycles: 270815630 heartbeat IPC: 0.292344 cumulative IPC: 0.291859 (Simulation time: 0 hr 7 min 20 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 89000000 cycles: 274236099 heartbeat IPC: 0.292358 cumulative IPC: 0.291866 (Simulation time: 0 hr 7 min 25 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 90000000 cycles: 277657243 heartbeat IPC: 0.2923 cumulative IPC: 0.291871 (Simulation time: 0 hr 7 min 30 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 91000000 cycles: 281077677 heartbeat IPC: 0.292361 cumulative IPC: 0.291877 (Simulation time: 0 hr 7 min 35 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 92000000 cycles: 284497606 heartbeat IPC: 0.292404 cumulative IPC: 0.291883 (Simulation time: 0 hr 7 min 40 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 93000000 cycles: 287918483 heartbeat IPC: 0.292323 cumulative IPC: 0.291889 (Simulation time: 0 hr 7 min 46 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 94000000 cycles: 291338728 heartbeat IPC: 0.292377 cumulative IPC: 0.291895 (Simulation time: 0 hr 7 min 52 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 95000000 cycles: 294760373 heartbeat IPC: 0.292257 cumulative IPC: 0.291899 (Simulation time: 0 hr 7 min 57 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 96000000 cycles: 298180963 heartbeat IPC: 0.292347 cumulative IPC: 0.291904 (Simulation time: 0 hr 8 min 2 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 97000000 cycles: 301601313 heartbeat IPC: 0.292368 cumulative IPC: 0.291909 (Simulation time: 0 hr 8 min 7 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 98000000 cycles: 305022099 heartbeat IPC: 0.29233 cumulative IPC: 0.291914 (Simulation time: 0 hr 8 min 13 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 99000000 cycles: 308442381 heartbeat IPC: 0.292374 cumulative IPC: 0.291919 (Simulation time: 0 hr 8 min 18 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 100000000 cycles: 311862510 heartbeat IPC: 0.292387 cumulative IPC: 0.291924 (Simulation time: 0 hr 8 min 23 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 101000000 cycles: 315283314 heartbeat IPC: 0.292329 cumulative IPC: 0.291929 (Simulation time: 0 hr 8 min 28 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 102000000 cycles: 318703408 heartbeat IPC: 0.29239 cumulative IPC: 0.291934 (Simulation time: 0 hr 8 min 34 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 103000000 cycles: 322122997 heartbeat IPC: 0.292433 cumulative IPC: 0.291939 (Simulation time: 0 hr 8 min 39 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 104000000 cycles: 325543534 heartbeat IPC: 0.292352 cumulative IPC: 0.291944 (Simulation time: 0 hr 8 min 44 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 105000000 cycles: 328963439 heartbeat IPC: 0.292406 cumulative IPC: 0.291948 (Simulation time: 0 hr 8 min 49 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 106000000 cycles: 332384744 heartbeat IPC: 0.292286 cumulative IPC: 0.291952 (Simulation time: 0 hr 8 min 55 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 107000000 cycles: 335804994 heartbeat IPC: 0.292376 cumulative IPC: 0.291956 (Simulation time: 0 hr 9 min 0 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 108000000 cycles: 339225004 heartbeat IPC: 0.292397 cumulative IPC: 0.291961 (Simulation time: 0 hr 9 min 6 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 109000000 cycles: 342645620 heartbeat IPC: 0.292345 cumulative IPC: 0.291965 (Simulation time: 0 hr 9 min 12 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_drrip/pr_drrip_17.trace.xz
+Heartbeat CPU 0 instructions: 110000000 cycles: 346065902 heartbeat IPC: 0.292374 cumulative IPC: 0.291969 (Simulation time: 0 hr 9 min 17 sec) 
+Finished CPU 0 instructions: 100000000 cycles: 342502340 cumulative IPC: 0.291969 (Simulation time: 0 hr 9 min 17 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.291969 instructions: 100000000 cycles: 342502340
+
+Total ROB STALLS:                   45467728
+STLB MISS ROB STALLS:                      0
+L1D  LOAD MISS ROB STALLS:           2602481  Translation MISS ROB STALLS:             0
+L2C  LOAD MISS ROB STALLS:            998309  Translation MISS ROB STALLS:             0
+LLC  LOAD MISS ROB STALLS:              2838  Translation MISS ROB STALLS:             0
+
+ITLB TOTAL     ACCESS:          23019272  HIT:   23019272  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+ITLB LOAD TRANSLATION ACCESS:   23019272  HIT:   23019272  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+ITLB AVERAGE MISS LATENCY:          -nan cycles
+ITLB RQ ACCESS:    23345976	FORWARD:           0	MERGED:       326705	TO_CACHE:   23019271
+
+DTLB TOTAL     ACCESS:          30269680  HIT:   29047480  MISS:    1222200  HIT %:    95.9623  MISS %:     4.0377   MPKI: 12.222
+DTLB LOAD TRANSLATION ACCESS:   30269680  HIT:   29047480  MISS:    1222200  HIT %:    95.9623  MISS %:     4.0377   MPKI: 12.222
+DTLB AVERAGE MISS LATENCY:             9 cycles
+DTLB RQ ACCESS:    43161249	FORWARD:           0	MERGED:     12891476	TO_CACHE:   30269773
+
+STLB TOTAL     ACCESS:           1222200  HIT:    1222200  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+STLB LOAD TRANSLATION ACCESS:    1222200  HIT:    1222200  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+STLB AVERAGE MISS LATENCY:          -nan cycles
+STLB RQ ACCESS:     1222202	FORWARD:           0	MERGED:            0	TO_CACHE:    1222202
+
+
+
+
+
+L1D TOTAL     ACCESS:          43160018  HIT:   40551818  MISS:    2608200  HIT %:    93.9569  MISS %:    6.04309   MPKI: 26.082  USED:     440600  UNUSED:    2167600
+L1D LOAD      ACCESS:          19564988  HIT:   16958388  MISS:    2606600  HIT %:    86.6772  MISS %:    13.3228   MPKI: 26.066  USED:     439100  UNUSED:    2167500
+L1D RFO       ACCESS:          23595030  HIT:   23593430  MISS:       1600  HIT %:    99.9932  MISS %: 0.00678109   MPKI: 0.016
+L1D PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D TOTAL EVICTIONS:            2608200  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:     2605000
+L1D AVERAGE MISS LATENCY:        26.688 cycles  AVERAGE LOAD MISS LATENCY:       26.6894 cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+L1D RQ ACCESS:    26204264	FORWARD:           0	MERGED:      3462490	TO_CACHE:   19565121
+L1D WQ ACCESS:    23596400	FORWARD:     3176653	MERGED:          272	TO_CACHE:   23596128
+
+L1I TOTAL     ACCESS:          23345977  HIT:   23345977  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+L1I LOAD      ACCESS:          23345977  HIT:   23345977  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+L1I AVERAGE MISS LATENCY:          -nan cycles
+L1I RQ ACCESS:    31606164	FORWARD:           0	MERGED:      8260188	TO_CACHE:   23345976
+
+L2C TOTAL     ACCESS:           2617000  HIT:    1616500  MISS:    1000500  HIT %:    61.7692  MISS %:    38.2308   MPKI: 10.005  USED:     316700  UNUSED:     683800
+L2C LOAD      ACCESS:           2606600  HIT:    1606600  MISS:    1000000  HIT %:    61.6358  MISS %:    38.3642   MPKI: 10  USED:     316600  UNUSED:     683400
+L2C RFO       ACCESS:              1600  HIT:       1100  MISS:        500  HIT %:      68.75  MISS %:      31.25   MPKI: 0.005
+L2C WRITEBACK ACCESS:              8800  HIT:       8800  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+L2C PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C TOTAL EVICTIONS:            1000500  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:      999500
+L2C AVERAGE MISS LATENCY:       30.4686 cycles  AVERAGE LOAD MISS LATENCY:       30.4689 cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+L2C RQ ACCESS:     2608200	FORWARD:           0	MERGED:            0	TO_CACHE:    2608200
+L2C WQ ACCESS:        8800	FORWARD:           0	MERGED:            0	TO_CACHE:       8800
+
+LLC TOTAL     ACCESS:           1007600  HIT:    1004762  MISS:       2838  HIT %:    99.7183  MISS %:   0.281659   MPKI: 0.02838  USED:          0  UNUSED:          0
+LLC LOAD      ACCESS:           1000000  HIT:     997162  MISS:       2838  HIT %:    99.7162  MISS %:     0.2838   MPKI: 0.02838  USED:          0  UNUSED:          0
+LLC RFO       ACCESS:               500  HIT:        500  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+LLC WRITEBACK ACCESS:              7100  HIT:       7100  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+LLC PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC TOTAL EVICTIONS:                  0  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:           0
+LLC AVERAGE MISS LATENCY:       165.208 cycles  AVERAGE LOAD MISS LATENCY:       165.208 cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+LLC RQ ACCESS:     1000500	FORWARD:           0	MERGED:            0	TO_CACHE:    1000500
+LLC WQ ACCESS:        7100	FORWARD:           0	MERGED:            0	TO_CACHE:       7100
+
+
+RAW hits: 16293943
+Loads Generated: 42498208
+Loads sent to L1D: 26204264
+Stores Generated: 23596400
+Stores sent to L1D: 23596400
+Major fault: 0 Minor fault: 348
+Allocated PAGES: 348
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:        136  ROW_BUFFER_MISS:       2702
+ DBUS_CONGESTED:          0
+ WQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0  FULL:          0
+
+ AVG_CONGESTED_CYCLE: -
+
+CPU 0 Branch Prediction Accuracy: 99.0963% MPKI: 1.16899 Average ROB Occupancy at Mispredict: 114.451
+Branch types
+NOT_BRANCH: 87063497 87.0635%
+BRANCH_DIRECT_JUMP: 2840795 2.84079%
+BRANCH_INDIRECT: 200 0.0002%
+BRANCH_CONDITIONAL: 3046039 3.04604%
+BRANCH_DIRECT_CALL: 3523999 3.524%
+BRANCH_INDIRECT_CALL: 598 0.000598%
+BRANCH_RETURN: 3524597 3.5246%
+BRANCH_OTHER: 0 0%
+
+DRAM PAGES: 1048576
+Allocated PAGES: 348

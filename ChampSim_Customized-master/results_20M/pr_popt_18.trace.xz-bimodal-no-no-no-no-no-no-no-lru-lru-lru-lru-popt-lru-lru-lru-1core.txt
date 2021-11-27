@@ -1,0 +1,316 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 20000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs traces_popt/pr_popt_18.trace.xz
+.xz
+CPU 0 Bimodal branch predictor
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+L2C has LRU replacement policy
+LLC has POPT replacement policy (with DDRIP to break ties)
+Build Time:          0.000003
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 6e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.8e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.7e-06
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000006
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 1.1e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 7.6e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  9.6e-06
+Heartbeat CPU 0 instructions: 1000000 cycles: 370375 heartbeat IPC: 2.69997 cumulative IPC: 2.69997 (Simulation time: 0 hr 0 min 2 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.8e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.6e-06
+Heartbeat CPU 0 instructions: 2000000 cycles: 724878 heartbeat IPC: 2.82085 cumulative IPC: 2.75908 (Simulation time: 0 hr 0 min 5 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.4e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.3e-06
+Heartbeat CPU 0 instructions: 3000000 cycles: 1079403 heartbeat IPC: 2.82068 cumulative IPC: 2.77931 (Simulation time: 0 hr 0 min 8 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000006
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 1e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 3.2e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  4.1e-06
+Heartbeat CPU 0 instructions: 4000000 cycles: 1433915 heartbeat IPC: 2.82078 cumulative IPC: 2.78957 (Simulation time: 0 hr 0 min 11 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.7e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.6e-06
+Heartbeat CPU 0 instructions: 5000000 cycles: 1788367 heartbeat IPC: 2.82126 cumulative IPC: 2.79585 (Simulation time: 0 hr 0 min 14 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 9e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 3.5e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  4.6e-06
+Heartbeat CPU 0 instructions: 6000000 cycles: 2142823 heartbeat IPC: 2.82122 cumulative IPC: 2.80004 (Simulation time: 0 hr 0 min 16 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000004
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.8e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.9e-06
+Heartbeat CPU 0 instructions: 7000000 cycles: 2497316 heartbeat IPC: 2.82093 cumulative IPC: 2.80301 (Simulation time: 0 hr 0 min 19 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000005
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.8e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.7e-06
+Heartbeat CPU 0 instructions: 8000000 cycles: 2851781 heartbeat IPC: 2.82115 cumulative IPC: 2.80526 (Simulation time: 0 hr 0 min 22 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 1e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.8e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.7e-06
+Heartbeat CPU 0 instructions: 9000000 cycles: 3206197 heartbeat IPC: 2.82154 cumulative IPC: 2.80706 (Simulation time: 0 hr 0 min 25 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.7e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.5e-06
+Heartbeat CPU 0 instructions: 10000000 cycles: 3560661 heartbeat IPC: 2.82116 cumulative IPC: 2.80847 (Simulation time: 0 hr 0 min 27 sec) 
+
+Warmup complete CPU 0 instructions: 10000004 cycles: 3560662 (Simulation time: 0 hr 0 min 27 sec) 
+
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.004899
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 0.0003563
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 0.0003596
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  0.0003607
+Heartbeat CPU 0 instructions: 11000000 cycles: 6993734 heartbeat IPC: 0.291284 cumulative IPC: 0.291283 (Simulation time: 0 hr 0 min 32 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000003
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 2.1e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 3.9e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  4.8e-06
+Heartbeat CPU 0 instructions: 12000000 cycles: 10425935 heartbeat IPC: 0.291358 cumulative IPC: 0.291321 (Simulation time: 0 hr 0 min 37 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000003
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 1.8e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 3.9e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  4.8e-06
+Heartbeat CPU 0 instructions: 13000000 cycles: 13856924 heartbeat IPC: 0.291461 cumulative IPC: 0.291368 (Simulation time: 0 hr 0 min 42 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000003
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 2e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 4.3e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  5e-06
+Heartbeat CPU 0 instructions: 14000000 cycles: 17288552 heartbeat IPC: 0.291407 cumulative IPC: 0.291377 (Simulation time: 0 hr 0 min 48 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 4.9e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  5.8e-06
+Heartbeat CPU 0 instructions: 15000000 cycles: 20720024 heartbeat IPC: 0.29142 cumulative IPC: 0.291386 (Simulation time: 0 hr 0 min 52 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.6e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.5e-06
+Heartbeat CPU 0 instructions: 16000000 cycles: 24149416 heartbeat IPC: 0.291597 cumulative IPC: 0.291421 (Simulation time: 0 hr 0 min 58 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000003
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.6e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.4e-06
+Heartbeat CPU 0 instructions: 17000000 cycles: 27577385 heartbeat IPC: 0.291718 cumulative IPC: 0.291463 (Simulation time: 0 hr 1 min 3 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 1.8e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 3.5e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  4.3e-06
+Heartbeat CPU 0 instructions: 18000000 cycles: 31005114 heartbeat IPC: 0.291738 cumulative IPC: 0.291498 (Simulation time: 0 hr 1 min 8 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000006
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 7e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.7e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.6e-06
+Heartbeat CPU 0 instructions: 19000000 cycles: 34433391 heartbeat IPC: 0.291692 cumulative IPC: 0.291519 (Simulation time: 0 hr 1 min 13 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 7e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.5e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.3e-06
+Heartbeat CPU 0 instructions: 20000000 cycles: 37860292 heartbeat IPC: 0.291809 cumulative IPC: 0.291548 (Simulation time: 0 hr 1 min 18 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000005
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.5e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.5e-06
+Heartbeat CPU 0 instructions: 21000000 cycles: 41287961 heartbeat IPC: 0.291743 cumulative IPC: 0.291566 (Simulation time: 0 hr 1 min 23 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 1.9e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 4e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  4.8e-06
+Heartbeat CPU 0 instructions: 22000000 cycles: 44713963 heartbeat IPC: 0.291885 cumulative IPC: 0.291593 (Simulation time: 0 hr 1 min 28 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 2e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 4e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  7.2e-06
+Heartbeat CPU 0 instructions: 23000000 cycles: 48139195 heartbeat IPC: 0.291951 cumulative IPC: 0.29162 (Simulation time: 0 hr 1 min 33 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 8e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 2.8e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.6e-06
+Heartbeat CPU 0 instructions: 24000000 cycles: 51563924 heartbeat IPC: 0.291994 cumulative IPC: 0.291647 (Simulation time: 0 hr 1 min 38 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 1.1e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 5.5e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  6.4e-06
+Heartbeat CPU 0 instructions: 25000000 cycles: 54989462 heartbeat IPC: 0.291925 cumulative IPC: 0.291665 (Simulation time: 0 hr 1 min 43 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 1.9e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 3.7e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  4.6e-06
+Heartbeat CPU 0 instructions: 26000000 cycles: 58415184 heartbeat IPC: 0.291909 cumulative IPC: 0.291681 (Simulation time: 0 hr 1 min 48 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000006
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 9e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 3e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  3.9e-06
+Heartbeat CPU 0 instructions: 27000000 cycles: 61839166 heartbeat IPC: 0.292058 cumulative IPC: 0.291703 (Simulation time: 0 hr 1 min 53 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000002
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 1.9e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 1.39e-05
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  1.48e-05
+Heartbeat CPU 0 instructions: 28000000 cycles: 65261895 heartbeat IPC: 0.292165 cumulative IPC: 0.291728 (Simulation time: 0 hr 1 min 58 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000003
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 2e-06
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 4.1e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  5e-06
+Heartbeat CPU 0 instructions: 29000000 cycles: 68684384 heartbeat IPC: 0.292185 cumulative IPC: 0.291752 (Simulation time: 0 hr 2 min 3 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_popt/pr_popt_18.trace.xz
+Build Time:          0.000004
+[CSR-HYBRID-PREPROCESSING] Time to quantize nghs and compact vertices = 9e-07
+[CSR-HYBRID-PREPROCESSING] Time to convert to offsets matrix = 3e-06
+[CSR-HYBRID-PREPROCESSING] Time to transpose offsets matrix =  6.3e-06
+Heartbeat CPU 0 instructions: 30000000 cycles: 72107591 heartbeat IPC: 0.292124 cumulative IPC: 0.291771 (Simulation time: 0 hr 2 min 8 sec) 
+Finished CPU 0 instructions: 20000001 cycles: 68546941 cumulative IPC: 0.291771 (Simulation time: 0 hr 2 min 8 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.291771 instructions: 20000001 cycles: 68546941
+
+Total ROB STALLS:                    9070716
+STLB MISS ROB STALLS:                      0
+L1D  LOAD MISS ROB STALLS:            517962  Translation MISS ROB STALLS:             0
+L2C  LOAD MISS ROB STALLS:            199326  Translation MISS ROB STALLS:             0
+LLC  LOAD MISS ROB STALLS:              1532  Translation MISS ROB STALLS:             0
+
+ITLB TOTAL     ACCESS:           4542351  HIT:    4542351  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+ITLB LOAD TRANSLATION ACCESS:    4542351  HIT:    4542351  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+ITLB AVERAGE MISS LATENCY:          -nan cycles
+ITLB RQ ACCESS:     4685892	FORWARD:           0	MERGED:       143541	TO_CACHE:    4542351
+
+DTLB TOTAL     ACCESS:           6027111  HIT:    5778632  MISS:     248479  HIT %:    95.8773  MISS %:    4.12269   MPKI: 12.4239
+DTLB LOAD TRANSLATION ACCESS:    6027111  HIT:    5778632  MISS:     248479  HIT %:    95.8773  MISS %:    4.12269   MPKI: 12.4239
+DTLB AVERAGE MISS LATENCY:             9 cycles
+DTLB RQ ACCESS:     8598810	FORWARD:           0	MERGED:      2571681	TO_CACHE:    6027129
+
+STLB TOTAL     ACCESS:            248479  HIT:     248479  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+STLB LOAD TRANSLATION ACCESS:     248479  HIT:     248479  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+STLB AVERAGE MISS LATENCY:          -nan cycles
+STLB RQ ACCESS:      248479	FORWARD:           0	MERGED:            0	TO_CACHE:     248479
+
+
+
+
+
+L1D TOTAL     ACCESS:           8598582  HIT:    8079642  MISS:     518940  HIT %:    93.9648  MISS %:    6.03518   MPKI: 25.947  USED:      87439  UNUSED:     431501
+L1D LOAD      ACCESS:           3897371  HIT:    3378691  MISS:     518680  HIT %:    86.6915  MISS %:    13.3085   MPKI: 25.934  USED:      87199  UNUSED:     431481
+L1D RFO       ACCESS:           4701211  HIT:    4700951  MISS:        260  HIT %:    99.9945  MISS %: 0.00553049   MPKI: 0.013
+L1D PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D TOTAL EVICTIONS:             518940  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:      518420
+L1D AVERAGE MISS LATENCY:       27.0356 cycles  AVERAGE LOAD MISS LATENCY:       27.0358 cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+L1D RQ ACCESS:     5220123	FORWARD:           0	MERGED:       690194	TO_CACHE:    3897398
+L1D WQ ACCESS:     4720640	FORWARD:      632531	MERGED:        19228	TO_CACHE:    4701412
+
+L1I TOTAL     ACCESS:           4685892  HIT:    4685892  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+L1I LOAD      ACCESS:           4685892  HIT:    4685892  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+L1I AVERAGE MISS LATENCY:          -nan cycles
+L1I RQ ACCESS:     6455342	FORWARD:           0	MERGED:      1769450	TO_CACHE:    4685892
+
+L2C TOTAL     ACCESS:            520620  HIT:     320880  MISS:     199740  HIT %:    61.6342  MISS %:    38.3658   MPKI: 9.987  USED:      64200  UNUSED:     135540
+L2C LOAD      ACCESS:            518680  HIT:     319040  MISS:     199640  HIT %:      61.51  MISS %:      38.49   MPKI: 9.982  USED:      64180  UNUSED:     135460
+L2C RFO       ACCESS:               260  HIT:        160  MISS:        100  HIT %:    61.5385  MISS %:    38.4615   MPKI: 0.005
+L2C WRITEBACK ACCESS:              1680  HIT:       1680  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+L2C PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C TOTAL EVICTIONS:             199740  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:      199540
+L2C AVERAGE MISS LATENCY:       31.2688 cycles  AVERAGE LOAD MISS LATENCY:       31.2695 cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+L2C RQ ACCESS:      518940	FORWARD:           0	MERGED:            0	TO_CACHE:     518940
+L2C WQ ACCESS:        1680	FORWARD:           0	MERGED:            0	TO_CACHE:       1680
+
+LLC TOTAL     ACCESS:            201040  HIT:     199508  MISS:       1532  HIT %:     99.238  MISS %:   0.762037   MPKI: 0.0766  USED:          0  UNUSED:          0
+LLC LOAD      ACCESS:            199640  HIT:     198108  MISS:       1532  HIT %:    99.2326  MISS %:   0.767381   MPKI: 0.0766  USED:          0  UNUSED:          0
+LLC RFO       ACCESS:               100  HIT:        100  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+LLC WRITEBACK ACCESS:              1300  HIT:       1300  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+LLC PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC TOTAL EVICTIONS:                  0  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:           0
+LLC AVERAGE MISS LATENCY:       165.431 cycles  AVERAGE LOAD MISS LATENCY:       165.431 cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+LLC RQ ACCESS:      199740	FORWARD:           0	MERGED:            0	TO_CACHE:     199740
+LLC WQ ACCESS:        1300	FORWARD:           0	MERGED:            0	TO_CACHE:       1300
+
+
+RAW hits: 3265154
+Loads Generated: 8485277
+Loads sent to L1D: 5220123
+Stores Generated: 4720639
+Stores sent to L1D: 4720640
+Major fault: 0 Minor fault: 350
+Allocated PAGES: 350
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:         70  ROW_BUFFER_MISS:       1462
+ DBUS_CONGESTED:          0
+ WQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0  FULL:          0
+
+ AVG_CONGESTED_CYCLE: -
+
+CPU 0 Branch Prediction Accuracy: 99.0995% MPKI: 1.16895 Average ROB Occupancy at Mispredict: 116.841
+Branch types
+NOT_BRANCH: 17403298 87.0165%
+BRANCH_DIRECT_JUMP: 565531 2.82765%
+BRANCH_INDIRECT: 40 0.0002%
+BRANCH_CONDITIONAL: 606535 3.03267%
+BRANCH_DIRECT_CALL: 721793 3.60896%
+BRANCH_INDIRECT_CALL: 118 0.00059%
+BRANCH_RETURN: 702314 3.51157%
+BRANCH_OTHER: 0 0%
+
+DRAM PAGES: 1048576
+Allocated PAGES: 350

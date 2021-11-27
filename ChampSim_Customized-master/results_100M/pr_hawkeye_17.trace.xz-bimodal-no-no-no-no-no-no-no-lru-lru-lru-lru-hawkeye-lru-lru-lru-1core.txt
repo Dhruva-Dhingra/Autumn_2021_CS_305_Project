@@ -1,0 +1,352 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 100000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs traces_hawkeye/pr_hawkeye_17.trace.xz
+.xz
+CPU 0 Bimodal branch predictor
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+L2C has LRU replacement policy
+Initialize Hawkeye state
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 1000003 cycles: 370683 heartbeat IPC: 2.69773 cumulative IPC: 2.69773 (Simulation time: 0 hr 0 min 2 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 2000003 cycles: 725277 heartbeat IPC: 2.82013 cumulative IPC: 2.75757 (Simulation time: 0 hr 0 min 4 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 3000003 cycles: 1079902 heartbeat IPC: 2.81988 cumulative IPC: 2.77803 (Simulation time: 0 hr 0 min 7 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 4000003 cycles: 1434490 heartbeat IPC: 2.82017 cumulative IPC: 2.78845 (Simulation time: 0 hr 0 min 9 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 5000003 cycles: 1789127 heartbeat IPC: 2.81978 cumulative IPC: 2.79466 (Simulation time: 0 hr 0 min 12 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 6000003 cycles: 2143724 heartbeat IPC: 2.8201 cumulative IPC: 2.79887 (Simulation time: 0 hr 0 min 15 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 7000003 cycles: 2498371 heartbeat IPC: 2.81971 cumulative IPC: 2.80183 (Simulation time: 0 hr 0 min 17 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 8000003 cycles: 2853014 heartbeat IPC: 2.81974 cumulative IPC: 2.80405 (Simulation time: 0 hr 0 min 20 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 9000003 cycles: 3207632 heartbeat IPC: 2.81994 cumulative IPC: 2.80581 (Simulation time: 0 hr 0 min 23 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 10000003 cycles: 3562223 heartbeat IPC: 2.82015 cumulative IPC: 2.80724 (Simulation time: 0 hr 0 min 25 sec) 
+
+Warmup complete CPU 0 instructions: 10000003 cycles: 3562223 (Simulation time: 0 hr 0 min 25 sec) 
+
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 11000000 cycles: 6983331 heartbeat IPC: 0.292302 cumulative IPC: 0.292302 (Simulation time: 0 hr 0 min 30 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 12000000 cycles: 10404014 heartbeat IPC: 0.292339 cumulative IPC: 0.292321 (Simulation time: 0 hr 0 min 35 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 13000000 cycles: 13824744 heartbeat IPC: 0.292335 cumulative IPC: 0.292326 (Simulation time: 0 hr 0 min 40 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 14000000 cycles: 17244764 heartbeat IPC: 0.292396 cumulative IPC: 0.292343 (Simulation time: 0 hr 0 min 45 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 15000000 cycles: 20664279 heartbeat IPC: 0.292439 cumulative IPC: 0.292362 (Simulation time: 0 hr 0 min 50 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 16000000 cycles: 24084772 heartbeat IPC: 0.292356 cumulative IPC: 0.292361 (Simulation time: 0 hr 0 min 55 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 17000000 cycles: 27504603 heartbeat IPC: 0.292412 cumulative IPC: 0.292368 (Simulation time: 0 hr 1 min 0 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 18000000 cycles: 30925824 heartbeat IPC: 0.292293 cumulative IPC: 0.292359 (Simulation time: 0 hr 1 min 6 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 19000000 cycles: 34346000 heartbeat IPC: 0.292383 cumulative IPC: 0.292362 (Simulation time: 0 hr 1 min 12 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 20000000 cycles: 37765934 heartbeat IPC: 0.292403 cumulative IPC: 0.292366 (Simulation time: 0 hr 1 min 18 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 21000000 cycles: 41186452 heartbeat IPC: 0.292353 cumulative IPC: 0.292365 (Simulation time: 0 hr 1 min 24 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 22000000 cycles: 44606653 heartbeat IPC: 0.29238 cumulative IPC: 0.292366 (Simulation time: 0 hr 1 min 29 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 23000000 cycles: 48026708 heartbeat IPC: 0.292393 cumulative IPC: 0.292368 (Simulation time: 0 hr 1 min 34 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 24000000 cycles: 51447438 heartbeat IPC: 0.292335 cumulative IPC: 0.292366 (Simulation time: 0 hr 1 min 39 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 25000000 cycles: 54867458 heartbeat IPC: 0.292396 cumulative IPC: 0.292368 (Simulation time: 0 hr 1 min 45 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 26000000 cycles: 58286973 heartbeat IPC: 0.292439 cumulative IPC: 0.292372 (Simulation time: 0 hr 1 min 50 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 27000000 cycles: 61707466 heartbeat IPC: 0.292356 cumulative IPC: 0.292371 (Simulation time: 0 hr 1 min 55 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 28000000 cycles: 65127297 heartbeat IPC: 0.292412 cumulative IPC: 0.292374 (Simulation time: 0 hr 1 min 59 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 29000000 cycles: 68548518 heartbeat IPC: 0.292293 cumulative IPC: 0.292369 (Simulation time: 0 hr 2 min 4 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 30000000 cycles: 71968694 heartbeat IPC: 0.292383 cumulative IPC: 0.29237 (Simulation time: 0 hr 2 min 9 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 31000000 cycles: 75388628 heartbeat IPC: 0.292403 cumulative IPC: 0.292372 (Simulation time: 0 hr 2 min 14 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 32000000 cycles: 78809146 heartbeat IPC: 0.292353 cumulative IPC: 0.292371 (Simulation time: 0 hr 2 min 19 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 33000000 cycles: 82229347 heartbeat IPC: 0.29238 cumulative IPC: 0.292371 (Simulation time: 0 hr 2 min 24 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 34000000 cycles: 85649402 heartbeat IPC: 0.292393 cumulative IPC: 0.292372 (Simulation time: 0 hr 2 min 29 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 35000000 cycles: 89070132 heartbeat IPC: 0.292335 cumulative IPC: 0.292371 (Simulation time: 0 hr 2 min 34 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 36000000 cycles: 92490152 heartbeat IPC: 0.292396 cumulative IPC: 0.292372 (Simulation time: 0 hr 2 min 40 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 37000000 cycles: 95909667 heartbeat IPC: 0.292439 cumulative IPC: 0.292374 (Simulation time: 0 hr 2 min 45 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 38000000 cycles: 99330160 heartbeat IPC: 0.292356 cumulative IPC: 0.292373 (Simulation time: 0 hr 2 min 50 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 39000000 cycles: 102749991 heartbeat IPC: 0.292412 cumulative IPC: 0.292375 (Simulation time: 0 hr 2 min 55 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 40000000 cycles: 106171212 heartbeat IPC: 0.292293 cumulative IPC: 0.292372 (Simulation time: 0 hr 3 min 0 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 41000000 cycles: 109591388 heartbeat IPC: 0.292383 cumulative IPC: 0.292372 (Simulation time: 0 hr 3 min 5 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 42000000 cycles: 113011322 heartbeat IPC: 0.292403 cumulative IPC: 0.292373 (Simulation time: 0 hr 3 min 11 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 43000000 cycles: 116431840 heartbeat IPC: 0.292353 cumulative IPC: 0.292373 (Simulation time: 0 hr 3 min 17 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 44000000 cycles: 119852041 heartbeat IPC: 0.29238 cumulative IPC: 0.292373 (Simulation time: 0 hr 3 min 22 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 45000000 cycles: 123272096 heartbeat IPC: 0.292393 cumulative IPC: 0.292374 (Simulation time: 0 hr 3 min 27 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 46000000 cycles: 126692826 heartbeat IPC: 0.292335 cumulative IPC: 0.292372 (Simulation time: 0 hr 3 min 33 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 47000000 cycles: 130112846 heartbeat IPC: 0.292396 cumulative IPC: 0.292373 (Simulation time: 0 hr 3 min 38 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 48000000 cycles: 133532361 heartbeat IPC: 0.292439 cumulative IPC: 0.292375 (Simulation time: 0 hr 3 min 44 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 49000000 cycles: 136952854 heartbeat IPC: 0.292356 cumulative IPC: 0.292374 (Simulation time: 0 hr 3 min 50 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 50000000 cycles: 140372685 heartbeat IPC: 0.292412 cumulative IPC: 0.292375 (Simulation time: 0 hr 3 min 55 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 51000000 cycles: 143793906 heartbeat IPC: 0.292293 cumulative IPC: 0.292373 (Simulation time: 0 hr 4 min 0 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 52000000 cycles: 147214082 heartbeat IPC: 0.292383 cumulative IPC: 0.292374 (Simulation time: 0 hr 4 min 5 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 53000000 cycles: 150634016 heartbeat IPC: 0.292403 cumulative IPC: 0.292374 (Simulation time: 0 hr 4 min 11 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 54000000 cycles: 154054534 heartbeat IPC: 0.292353 cumulative IPC: 0.292374 (Simulation time: 0 hr 4 min 17 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 55000000 cycles: 157474735 heartbeat IPC: 0.29238 cumulative IPC: 0.292374 (Simulation time: 0 hr 4 min 23 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 56000000 cycles: 160894790 heartbeat IPC: 0.292393 cumulative IPC: 0.292374 (Simulation time: 0 hr 4 min 28 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 57000000 cycles: 164315520 heartbeat IPC: 0.292335 cumulative IPC: 0.292373 (Simulation time: 0 hr 4 min 33 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 58000000 cycles: 167735540 heartbeat IPC: 0.292396 cumulative IPC: 0.292374 (Simulation time: 0 hr 4 min 38 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 59000000 cycles: 171155055 heartbeat IPC: 0.292439 cumulative IPC: 0.292375 (Simulation time: 0 hr 4 min 43 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 60000000 cycles: 174575548 heartbeat IPC: 0.292356 cumulative IPC: 0.292375 (Simulation time: 0 hr 4 min 49 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 61000000 cycles: 177995379 heartbeat IPC: 0.292412 cumulative IPC: 0.292376 (Simulation time: 0 hr 4 min 54 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 62000000 cycles: 181416600 heartbeat IPC: 0.292293 cumulative IPC: 0.292374 (Simulation time: 0 hr 4 min 59 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 63000000 cycles: 184836776 heartbeat IPC: 0.292383 cumulative IPC: 0.292374 (Simulation time: 0 hr 5 min 5 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 64000000 cycles: 188256710 heartbeat IPC: 0.292403 cumulative IPC: 0.292375 (Simulation time: 0 hr 5 min 10 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 65000000 cycles: 191677228 heartbeat IPC: 0.292353 cumulative IPC: 0.292374 (Simulation time: 0 hr 5 min 16 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 66000000 cycles: 195097429 heartbeat IPC: 0.29238 cumulative IPC: 0.292374 (Simulation time: 0 hr 5 min 22 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 67000000 cycles: 198517484 heartbeat IPC: 0.292393 cumulative IPC: 0.292375 (Simulation time: 0 hr 5 min 27 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 68000000 cycles: 201938214 heartbeat IPC: 0.292335 cumulative IPC: 0.292374 (Simulation time: 0 hr 5 min 32 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 69000000 cycles: 205358234 heartbeat IPC: 0.292396 cumulative IPC: 0.292374 (Simulation time: 0 hr 5 min 38 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 70000000 cycles: 208777749 heartbeat IPC: 0.292439 cumulative IPC: 0.292376 (Simulation time: 0 hr 5 min 43 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 71000000 cycles: 212198242 heartbeat IPC: 0.292356 cumulative IPC: 0.292375 (Simulation time: 0 hr 5 min 48 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 72000000 cycles: 215618073 heartbeat IPC: 0.292412 cumulative IPC: 0.292376 (Simulation time: 0 hr 5 min 53 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 73000000 cycles: 219039294 heartbeat IPC: 0.292293 cumulative IPC: 0.292374 (Simulation time: 0 hr 5 min 59 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 74000000 cycles: 222459470 heartbeat IPC: 0.292383 cumulative IPC: 0.292375 (Simulation time: 0 hr 6 min 4 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 75000000 cycles: 225879404 heartbeat IPC: 0.292403 cumulative IPC: 0.292375 (Simulation time: 0 hr 6 min 11 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 76000000 cycles: 229299922 heartbeat IPC: 0.292353 cumulative IPC: 0.292375 (Simulation time: 0 hr 6 min 16 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 77000000 cycles: 232720123 heartbeat IPC: 0.29238 cumulative IPC: 0.292375 (Simulation time: 0 hr 6 min 20 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 78000000 cycles: 236140178 heartbeat IPC: 0.292393 cumulative IPC: 0.292375 (Simulation time: 0 hr 6 min 25 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 79000000 cycles: 239560908 heartbeat IPC: 0.292335 cumulative IPC: 0.292374 (Simulation time: 0 hr 6 min 30 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 80000000 cycles: 242980928 heartbeat IPC: 0.292396 cumulative IPC: 0.292375 (Simulation time: 0 hr 6 min 35 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 81000000 cycles: 246400443 heartbeat IPC: 0.292439 cumulative IPC: 0.292376 (Simulation time: 0 hr 6 min 40 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 82000000 cycles: 249820936 heartbeat IPC: 0.292356 cumulative IPC: 0.292375 (Simulation time: 0 hr 6 min 45 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 83000000 cycles: 253240767 heartbeat IPC: 0.292412 cumulative IPC: 0.292376 (Simulation time: 0 hr 6 min 51 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 84000000 cycles: 256661988 heartbeat IPC: 0.292293 cumulative IPC: 0.292375 (Simulation time: 0 hr 6 min 56 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 85000000 cycles: 260082164 heartbeat IPC: 0.292383 cumulative IPC: 0.292375 (Simulation time: 0 hr 7 min 1 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 86000000 cycles: 263502098 heartbeat IPC: 0.292403 cumulative IPC: 0.292375 (Simulation time: 0 hr 7 min 6 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 87000000 cycles: 266922616 heartbeat IPC: 0.292353 cumulative IPC: 0.292375 (Simulation time: 0 hr 7 min 12 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 88000000 cycles: 270342817 heartbeat IPC: 0.29238 cumulative IPC: 0.292375 (Simulation time: 0 hr 7 min 17 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 89000000 cycles: 273762872 heartbeat IPC: 0.292393 cumulative IPC: 0.292375 (Simulation time: 0 hr 7 min 23 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 90000000 cycles: 277183602 heartbeat IPC: 0.292335 cumulative IPC: 0.292375 (Simulation time: 0 hr 7 min 28 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 91000000 cycles: 280603622 heartbeat IPC: 0.292396 cumulative IPC: 0.292375 (Simulation time: 0 hr 7 min 33 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 92000000 cycles: 284023137 heartbeat IPC: 0.292439 cumulative IPC: 0.292376 (Simulation time: 0 hr 7 min 38 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 93000000 cycles: 287443630 heartbeat IPC: 0.292356 cumulative IPC: 0.292376 (Simulation time: 0 hr 7 min 44 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 94000000 cycles: 290863461 heartbeat IPC: 0.292412 cumulative IPC: 0.292376 (Simulation time: 0 hr 7 min 49 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 95000000 cycles: 294284682 heartbeat IPC: 0.292293 cumulative IPC: 0.292375 (Simulation time: 0 hr 7 min 54 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 96000000 cycles: 297704858 heartbeat IPC: 0.292383 cumulative IPC: 0.292375 (Simulation time: 0 hr 8 min 0 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 97000000 cycles: 301124792 heartbeat IPC: 0.292403 cumulative IPC: 0.292375 (Simulation time: 0 hr 8 min 5 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 98000000 cycles: 304545310 heartbeat IPC: 0.292353 cumulative IPC: 0.292375 (Simulation time: 0 hr 8 min 10 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 99000000 cycles: 307965511 heartbeat IPC: 0.29238 cumulative IPC: 0.292375 (Simulation time: 0 hr 8 min 15 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 100000000 cycles: 311385566 heartbeat IPC: 0.292393 cumulative IPC: 0.292375 (Simulation time: 0 hr 8 min 21 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 101000000 cycles: 314806296 heartbeat IPC: 0.292335 cumulative IPC: 0.292375 (Simulation time: 0 hr 8 min 26 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 102000000 cycles: 318226316 heartbeat IPC: 0.292396 cumulative IPC: 0.292375 (Simulation time: 0 hr 8 min 31 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 103000000 cycles: 321645831 heartbeat IPC: 0.292439 cumulative IPC: 0.292376 (Simulation time: 0 hr 8 min 36 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 104000000 cycles: 325066324 heartbeat IPC: 0.292356 cumulative IPC: 0.292376 (Simulation time: 0 hr 8 min 41 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 105000000 cycles: 328486155 heartbeat IPC: 0.292412 cumulative IPC: 0.292376 (Simulation time: 0 hr 8 min 46 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 106000000 cycles: 331907376 heartbeat IPC: 0.292293 cumulative IPC: 0.292375 (Simulation time: 0 hr 8 min 52 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 107000000 cycles: 335327552 heartbeat IPC: 0.292383 cumulative IPC: 0.292375 (Simulation time: 0 hr 8 min 57 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 108000000 cycles: 338747486 heartbeat IPC: 0.292403 cumulative IPC: 0.292376 (Simulation time: 0 hr 9 min 3 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 109000000 cycles: 342168004 heartbeat IPC: 0.292353 cumulative IPC: 0.292375 (Simulation time: 0 hr 9 min 9 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 110000000 cycles: 345588205 heartbeat IPC: 0.29238 cumulative IPC: 0.292375 (Simulation time: 0 hr 9 min 14 sec) 
+Finished CPU 0 instructions: 100000000 cycles: 342026010 cumulative IPC: 0.292375 (Simulation time: 0 hr 9 min 14 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.292375 instructions: 100000000 cycles: 342026010
+
+Total ROB STALLS:                   45467561
+STLB MISS ROB STALLS:                      0
+L1D  LOAD MISS ROB STALLS:           2602389  Translation MISS ROB STALLS:             0
+L2C  LOAD MISS ROB STALLS:            997928  Translation MISS ROB STALLS:             0
+LLC  LOAD MISS ROB STALLS:                 0  Translation MISS ROB STALLS:             0
+
+ITLB TOTAL     ACCESS:          23019476  HIT:   23019476  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+ITLB LOAD TRANSLATION ACCESS:   23019476  HIT:   23019476  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+ITLB AVERAGE MISS LATENCY:          -nan cycles
+ITLB RQ ACCESS:    23346180	FORWARD:           0	MERGED:       326705	TO_CACHE:   23019475
+
+DTLB TOTAL     ACCESS:          30269691  HIT:   29047491  MISS:    1222200  HIT %:    95.9623  MISS %:     4.0377   MPKI: 12.222
+DTLB LOAD TRANSLATION ACCESS:   30269691  HIT:   29047491  MISS:    1222200  HIT %:    95.9623  MISS %:     4.0377   MPKI: 12.222
+DTLB AVERAGE MISS LATENCY:             9 cycles
+DTLB RQ ACCESS:    43161249	FORWARD:           0	MERGED:     12891465	TO_CACHE:   30269784
+
+STLB TOTAL     ACCESS:           1222200  HIT:    1222200  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+STLB LOAD TRANSLATION ACCESS:    1222200  HIT:    1222200  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+STLB AVERAGE MISS LATENCY:          -nan cycles
+STLB RQ ACCESS:     1222202	FORWARD:           0	MERGED:            0	TO_CACHE:    1222202
+
+
+
+
+
+L1D TOTAL     ACCESS:          43159554  HIT:   40551354  MISS:    2608200  HIT %:    93.9568  MISS %:    6.04316   MPKI: 26.082  USED:     440600  UNUSED:    2167600
+L1D LOAD      ACCESS:          19564988  HIT:   16958388  MISS:    2606600  HIT %:    86.6772  MISS %:    13.3228   MPKI: 26.066  USED:     439100  UNUSED:    2167500
+L1D RFO       ACCESS:          23594566  HIT:   23592966  MISS:       1600  HIT %:    99.9932  MISS %: 0.00678122   MPKI: 0.016
+L1D PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D TOTAL EVICTIONS:            2608200  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:     2605000
+L1D AVERAGE MISS LATENCY:       26.5071 cycles  AVERAGE LOAD MISS LATENCY:       26.5084 cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+L1D RQ ACCESS:    26204264	FORWARD:           0	MERGED:      3462490	TO_CACHE:   19565121
+L1D WQ ACCESS:    23596400	FORWARD:     3176653	MERGED:          272	TO_CACHE:   23596128
+
+L1I TOTAL     ACCESS:          23346181  HIT:   23346181  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+L1I LOAD      ACCESS:          23346181  HIT:   23346181  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+L1I AVERAGE MISS LATENCY:          -nan cycles
+L1I RQ ACCESS:    31607865	FORWARD:           0	MERGED:      8261685	TO_CACHE:   23346180
+
+L2C TOTAL     ACCESS:           2617000  HIT:    1616500  MISS:    1000500  HIT %:    61.7692  MISS %:    38.2308   MPKI: 10.005  USED:     315300  UNUSED:     685200
+L2C LOAD      ACCESS:           2606600  HIT:    1606700  MISS:     999900  HIT %:    61.6397  MISS %:    38.3603   MPKI: 9.999  USED:     315200  UNUSED:     684700
+L2C RFO       ACCESS:              1600  HIT:       1100  MISS:        500  HIT %:      68.75  MISS %:      31.25   MPKI: 0.005
+L2C WRITEBACK ACCESS:              8800  HIT:       8700  MISS:        100  HIT %:    98.8636  MISS %:    1.13636   MPKI: 0.001
+L2C PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C TOTAL EVICTIONS:            1000500  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:      999300
+L2C AVERAGE MISS LATENCY:        29.997 cycles  AVERAGE LOAD MISS LATENCY:            30 cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+L2C RQ ACCESS:     2608200	FORWARD:           0	MERGED:            0	TO_CACHE:    2608200
+L2C WQ ACCESS:        8800	FORWARD:           0	MERGED:            0	TO_CACHE:       8800
+
+LLC TOTAL     ACCESS:           1007300  HIT:    1007300  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0  USED:          0  UNUSED:          0
+LLC LOAD      ACCESS:            999900  HIT:     999900  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0  USED:          0  UNUSED:          0
+LLC RFO       ACCESS:               500  HIT:        500  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+LLC WRITEBACK ACCESS:              6900  HIT:       6900  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+LLC PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC TOTAL EVICTIONS:                  0  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:           0
+LLC AVERAGE MISS LATENCY:          -nan cycles  AVERAGE LOAD MISS LATENCY:          -nan cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+LLC RQ ACCESS:     1000400	FORWARD:           0	MERGED:            0	TO_CACHE:    1000400
+LLC WQ ACCESS:        6900	FORWARD:           0	MERGED:            0	TO_CACHE:       6900
+
+
+RAW hits: 16293943
+Loads Generated: 42498208
+Loads sent to L1D: 26204264
+Stores Generated: 23596400
+Stores sent to L1D: 23596400
+Major fault: 0 Minor fault: 348
+Allocated PAGES: 348
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0
+ DBUS_CONGESTED:          0
+ WQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0  FULL:          0
+
+ AVG_CONGESTED_CYCLE: -
+
+CPU 0 Branch Prediction Accuracy: 99.0963% MPKI: 1.16899 Average ROB Occupancy at Mispredict: 114.514
+Branch types
+NOT_BRANCH: 87063497 87.0635%
+BRANCH_DIRECT_JUMP: 2840795 2.84079%
+BRANCH_INDIRECT: 200 0.0002%
+BRANCH_CONDITIONAL: 3046039 3.04604%
+BRANCH_DIRECT_CALL: 3523999 3.524%
+BRANCH_INDIRECT_CALL: 598 0.000598%
+BRANCH_RETURN: 3524597 3.5246%
+BRANCH_OTHER: 0 0%
+
+DRAM PAGES: 1048576
+Allocated PAGES: 348

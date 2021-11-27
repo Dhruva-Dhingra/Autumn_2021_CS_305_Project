@@ -1,0 +1,192 @@
+
+*** ChampSim Multicore Out-of-Order Simulator ***
+
+Warmup Instructions: 10000000
+Simulation Instructions: 20000000
+Number of CPUs: 1
+LLC sets: 2048
+LLC ways: 16
+Off-chip DRAM Size: 4096 MB Channels: 1 Width: 64-bit Data Rate: 6400 MT/s
+CPU 0 runs traces_hawkeye/pr_hawkeye_17.trace.xz
+.xz
+CPU 0 Bimodal branch predictor
+BTB has LRU replacement policy
+ITLB has LRU replacement policy
+DTLB has LRU replacement policy
+STLB has LRU replacement policy
+L1I has LRU replacement policy
+L1D has LRU replacement policy
+L2C has LRU replacement policy
+Initialize Hawkeye state
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 1000003 cycles: 370683 heartbeat IPC: 2.69773 cumulative IPC: 2.69773 (Simulation time: 0 hr 0 min 3 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 2000003 cycles: 725277 heartbeat IPC: 2.82013 cumulative IPC: 2.75757 (Simulation time: 0 hr 0 min 5 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 3000003 cycles: 1079902 heartbeat IPC: 2.81988 cumulative IPC: 2.77803 (Simulation time: 0 hr 0 min 8 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 4000003 cycles: 1434490 heartbeat IPC: 2.82017 cumulative IPC: 2.78845 (Simulation time: 0 hr 0 min 11 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 5000003 cycles: 1789127 heartbeat IPC: 2.81978 cumulative IPC: 2.79466 (Simulation time: 0 hr 0 min 13 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 6000003 cycles: 2143724 heartbeat IPC: 2.8201 cumulative IPC: 2.79887 (Simulation time: 0 hr 0 min 16 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 7000003 cycles: 2498371 heartbeat IPC: 2.81971 cumulative IPC: 2.80183 (Simulation time: 0 hr 0 min 18 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 8000003 cycles: 2853014 heartbeat IPC: 2.81974 cumulative IPC: 2.80405 (Simulation time: 0 hr 0 min 21 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 9000003 cycles: 3207632 heartbeat IPC: 2.81994 cumulative IPC: 2.80581 (Simulation time: 0 hr 0 min 23 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 10000003 cycles: 3562223 heartbeat IPC: 2.82015 cumulative IPC: 2.80724 (Simulation time: 0 hr 0 min 26 sec) 
+
+Warmup complete CPU 0 instructions: 10000003 cycles: 3562223 (Simulation time: 0 hr 0 min 26 sec) 
+
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 11000000 cycles: 6983331 heartbeat IPC: 0.292302 cumulative IPC: 0.292302 (Simulation time: 0 hr 0 min 32 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 12000000 cycles: 10404014 heartbeat IPC: 0.292339 cumulative IPC: 0.292321 (Simulation time: 0 hr 0 min 37 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 13000000 cycles: 13824744 heartbeat IPC: 0.292335 cumulative IPC: 0.292326 (Simulation time: 0 hr 0 min 42 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 14000000 cycles: 17244764 heartbeat IPC: 0.292396 cumulative IPC: 0.292343 (Simulation time: 0 hr 0 min 49 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 15000000 cycles: 20664279 heartbeat IPC: 0.292439 cumulative IPC: 0.292362 (Simulation time: 0 hr 0 min 54 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 16000000 cycles: 24084772 heartbeat IPC: 0.292356 cumulative IPC: 0.292361 (Simulation time: 0 hr 1 min 0 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 17000000 cycles: 27504603 heartbeat IPC: 0.292412 cumulative IPC: 0.292368 (Simulation time: 0 hr 1 min 6 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 18000000 cycles: 30925824 heartbeat IPC: 0.292293 cumulative IPC: 0.292359 (Simulation time: 0 hr 1 min 12 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 19000000 cycles: 34346000 heartbeat IPC: 0.292383 cumulative IPC: 0.292362 (Simulation time: 0 hr 1 min 17 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 20000000 cycles: 37765934 heartbeat IPC: 0.292403 cumulative IPC: 0.292366 (Simulation time: 0 hr 1 min 22 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 21000000 cycles: 41186452 heartbeat IPC: 0.292353 cumulative IPC: 0.292365 (Simulation time: 0 hr 1 min 28 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 22000000 cycles: 44606653 heartbeat IPC: 0.29238 cumulative IPC: 0.292366 (Simulation time: 0 hr 1 min 33 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 23000000 cycles: 48026708 heartbeat IPC: 0.292393 cumulative IPC: 0.292368 (Simulation time: 0 hr 1 min 38 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 24000000 cycles: 51447438 heartbeat IPC: 0.292335 cumulative IPC: 0.292366 (Simulation time: 0 hr 1 min 45 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 25000000 cycles: 54867458 heartbeat IPC: 0.292396 cumulative IPC: 0.292368 (Simulation time: 0 hr 1 min 50 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 26000000 cycles: 58286973 heartbeat IPC: 0.292439 cumulative IPC: 0.292372 (Simulation time: 0 hr 1 min 55 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 27000000 cycles: 61707466 heartbeat IPC: 0.292356 cumulative IPC: 0.292371 (Simulation time: 0 hr 2 min 0 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 28000000 cycles: 65127297 heartbeat IPC: 0.292412 cumulative IPC: 0.292374 (Simulation time: 0 hr 2 min 5 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 29000000 cycles: 68548518 heartbeat IPC: 0.292293 cumulative IPC: 0.292369 (Simulation time: 0 hr 2 min 11 sec) 
+*** Reached end of trace for Core: 0 Repeating trace: traces_hawkeye/pr_hawkeye_17.trace.xz
+Heartbeat CPU 0 instructions: 30000000 cycles: 71968694 heartbeat IPC: 0.292383 cumulative IPC: 0.29237 (Simulation time: 0 hr 2 min 17 sec) 
+Finished CPU 0 instructions: 20000001 cycles: 68406488 cumulative IPC: 0.29237 (Simulation time: 0 hr 2 min 17 sec) 
+
+ChampSim completed all CPUs
+
+Region of Interest Statistics
+
+CPU 0 cumulative IPC: 0.29237 instructions: 20000001 cycles: 68406488
+
+Total ROB STALLS:                    9093619
+STLB MISS ROB STALLS:                      0
+L1D  LOAD MISS ROB STALLS:            520486  Translation MISS ROB STALLS:             0
+L2C  LOAD MISS ROB STALLS:            199596  Translation MISS ROB STALLS:             0
+LLC  LOAD MISS ROB STALLS:                 0  Translation MISS ROB STALLS:             0
+
+ITLB TOTAL     ACCESS:           4603865  HIT:    4603865  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+ITLB LOAD TRANSLATION ACCESS:    4603865  HIT:    4603865  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+ITLB AVERAGE MISS LATENCY:          -nan cycles
+ITLB RQ ACCESS:     4669209	FORWARD:           0	MERGED:        65345	TO_CACHE:    4603864
+
+DTLB TOTAL     ACCESS:           6053982  HIT:    5809542  MISS:     244440  HIT %:    95.9623  MISS %:    4.03767   MPKI: 12.222
+DTLB LOAD TRANSLATION ACCESS:    6053982  HIT:    5809542  MISS:     244440  HIT %:    95.9623  MISS %:    4.03767   MPKI: 12.222
+DTLB AVERAGE MISS LATENCY:             9 cycles
+DTLB RQ ACCESS:     8632247	FORWARD:           0	MERGED:      2578247	TO_CACHE:    6054000
+
+STLB TOTAL     ACCESS:            244440  HIT:     244440  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+STLB LOAD TRANSLATION ACCESS:     244440  HIT:     244440  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+STLB AVERAGE MISS LATENCY:          -nan cycles
+STLB RQ ACCESS:      244440	FORWARD:           0	MERGED:            0	TO_CACHE:     244440
+
+
+
+
+
+L1D TOTAL     ACCESS:           8631903  HIT:    8110263  MISS:     521640  HIT %:    93.9568  MISS %:    6.04316   MPKI: 26.082  USED:      88120  UNUSED:     433520
+L1D LOAD      ACCESS:           3912991  HIT:    3391671  MISS:     521320  HIT %:    86.6772  MISS %:    13.3228   MPKI: 26.066  USED:      87820  UNUSED:     433500
+L1D RFO       ACCESS:           4718912  HIT:    4718592  MISS:        320  HIT %:    99.9932  MISS %: 0.00678122   MPKI: 0.016
+L1D PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L1D TOTAL EVICTIONS:             521640  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:      521000
+L1D AVERAGE MISS LATENCY:       26.5071 cycles  AVERAGE LOAD MISS LATENCY:       26.5084 cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+L1D RQ ACCESS:     5240821	FORWARD:           0	MERGED:       692501	TO_CACHE:    3913020
+L1D WQ ACCESS:     4719280	FORWARD:      635300	MERGED:           53	TO_CACHE:    4719227
+
+L1I TOTAL     ACCESS:           4669210  HIT:    4669210  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+L1I LOAD      ACCESS:           4669210  HIT:    4669210  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+L1I AVERAGE MISS LATENCY:          -nan cycles
+L1I RQ ACCESS:     6321472	FORWARD:           0	MERGED:      1652263	TO_CACHE:    4669209
+
+L2C TOTAL     ACCESS:            523400  HIT:     323300  MISS:     200100  HIT %:    61.7692  MISS %:    38.2308   MPKI: 10.005  USED:      63060  UNUSED:     137040
+L2C LOAD      ACCESS:            521320  HIT:     321340  MISS:     199980  HIT %:    61.6397  MISS %:    38.3603   MPKI: 9.999  USED:      63040  UNUSED:     136940
+L2C RFO       ACCESS:               320  HIT:        220  MISS:        100  HIT %:      68.75  MISS %:      31.25   MPKI: 0.005
+L2C WRITEBACK ACCESS:              1760  HIT:       1740  MISS:         20  HIT %:    98.8636  MISS %:    1.13636   MPKI: 0.001
+L2C PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+L2C TOTAL EVICTIONS:             200100  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:      199860
+L2C AVERAGE MISS LATENCY:        29.997 cycles  AVERAGE LOAD MISS LATENCY:            30 cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+L2C RQ ACCESS:      521640	FORWARD:           0	MERGED:            0	TO_CACHE:     521640
+L2C WQ ACCESS:        1760	FORWARD:           0	MERGED:            0	TO_CACHE:       1760
+
+LLC TOTAL     ACCESS:            201460  HIT:     201460  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0  USED:          0  UNUSED:          0
+LLC LOAD      ACCESS:            199980  HIT:     199980  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0  USED:          0  UNUSED:          0
+LLC RFO       ACCESS:               100  HIT:        100  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+LLC WRITEBACK ACCESS:              1380  HIT:       1380  MISS:          0  HIT %:        100  MISS %:          0   MPKI: 0
+LLC PTL1 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL2 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL3 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL4 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC PTL5 TRANSLATION ACCESS:          0  HIT:          0  MISS:          0  HIT %:       -nan  MISS %:       -nan   MPKI: 0
+LLC TOTAL EVICTIONS:                  0  TRANSLATION EVICTIONS:          0  TRANSLATION EVICTING TRANSALTION:          0  TRANSLATION EVICTING LOAD:          0  LOAD EVICTING TRANSALTION:          0  LOAD EVICTING LOAD:           0
+LLC AVERAGE MISS LATENCY:          -nan cycles  AVERAGE LOAD MISS LATENCY:          -nan cycles  AVERAGE LOAD TRANSLATION MISS LATENCY:          -nan cycles
+LLC RQ ACCESS:      200080	FORWARD:           0	MERGED:            0	TO_CACHE:     200080
+LLC WQ ACCESS:        1380	FORWARD:           0	MERGED:            0	TO_CACHE:       1380
+
+
+RAW hits: 3258824
+Loads Generated: 8499650
+Loads sent to L1D: 5240821
+Stores Generated: 4719284
+Stores sent to L1D: 4719280
+Major fault: 0 Minor fault: 348
+Allocated PAGES: 348
+
+DRAM Statistics
+ CHANNEL 0
+ RQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0
+ DBUS_CONGESTED:          0
+ WQ ROW_BUFFER_HIT:          0  ROW_BUFFER_MISS:          0  FULL:          0
+
+ AVG_CONGESTED_CYCLE: -
+
+CPU 0 Branch Prediction Accuracy: 99.0964% MPKI: 1.16895 Average ROB Occupancy at Mispredict: 114.498
+Branch types
+NOT_BRANCH: 17412537 87.0627%
+BRANCH_DIRECT_JUMP: 568155 2.84077%
+BRANCH_INDIRECT: 40 0.0002%
+BRANCH_CONDITIONAL: 609159 3.04579%
+BRANCH_DIRECT_CALL: 704799 3.52399%
+BRANCH_INDIRECT_CALL: 118 0.00059%
+BRANCH_RETURN: 704917 3.52458%
+BRANCH_OTHER: 0 0%
+
+DRAM PAGES: 1048576
+Allocated PAGES: 348
